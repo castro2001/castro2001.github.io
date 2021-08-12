@@ -130,14 +130,14 @@ position: relative;
 }
 /* paralax not */
 .noparalax{
-    position: relative;
-   
+    position: relative
     background-image: url(tiberiu-potec-Tokc7PKfSGM-unsplash.jpg);
      width: 100%;
     background-repeat: no-repeat;
     background-position: right left;
     background-attachment:scroll;
     height: 500px;
+Margin-bottom: -100px;
 }
 .noparalax .logo3,
 .noparalax .logo2,
@@ -502,4 +502,13 @@ transition: 5s;
 .icons .icon:hover{
     color: red;
     width: 100px;
+}
+
+@media screem and (max-width: 412px){
+   .seccion{ 
+     Display: flex;
+flex-direction: column;
+Justify-content: center;
+Background-color:#23aa22
+}
 }
